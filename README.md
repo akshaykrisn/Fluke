@@ -13,9 +13,5 @@
 
 | First Header  | Second Header |
 | ------------- | ------------- |
-| ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
-  | ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
-  |
-| ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
-  | ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
-  |
+| ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) |
+| ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) |
