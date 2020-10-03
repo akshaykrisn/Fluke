@@ -40,3 +40,6 @@ Share this app, play quiz and boost participation:
 
 ✅Easy quiz - 6 questions - great rewards.
 ```
+
+
+Copyright © 2018 Akshay Krishna
