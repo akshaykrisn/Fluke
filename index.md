@@ -22,24 +22,7 @@ Icon  | Banner | Download
 
 ## Playstore Description 
 
-```Free and Rewarding: Still thinking about that smartphone? Win it free 😊
 
-Play our Free Live Quiz every day from 7:00 pm to 7:30 pm. We will reward you -- to win great prizes🌟
-
-Amazing gifts everyday📅. You really get to WIN cool new prizes.
-
-🎁 Winning is simple: You just participate and win. More participation, more lucky.
-🕑 Easy to use: You simply win! Everything is clear and rewarding.
-😎 Share to win: Spread your lucky referral and earn more every day. Claim yourself a great reward.
-🍭 Win lucky badges.
-
-Share this app, play quiz and boost participation:
-
-• Refer friends and family to be even more lucky👥
-• Lucky winner participates more ⌛
-
-✅Easy quiz - 6 questions - great rewards.
-```
 
 
 Copyright © 2018 Akshay Krishna
