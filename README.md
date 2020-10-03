@@ -1,5 +1,5 @@
 # Fluke
-### A discontinued raffle startup 
+### Discontinued Raffle Startup 
 
 ## Features
 
