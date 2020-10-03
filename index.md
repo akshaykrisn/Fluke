@@ -1,6 +1,6 @@
 > [View the Project on GitHub](https://github.com/edAxe/Fluke)
 
-![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) 
+![](/banner.png) 
 
 ### Raffle startup-project (Discontinued)
 
