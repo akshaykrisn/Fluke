@@ -13,4 +13,4 @@
  - Support Live Quizzes much like Flipkart Games;
 
 
-Copyright © 2018 Akshay Krishna
+Copyright © 2018 edAxe
