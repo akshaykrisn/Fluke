@@ -1,4 +1,4 @@
-
+![](/icon.png)  
 
 ### Raffle startup-project (Discontinued)
 
