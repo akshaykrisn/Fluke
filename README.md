@@ -1,6 +1,6 @@
 # Fluke
 
-### Discontinued Raffle Startup 
+### Discontinued Raffle Startup Project 
 
 Icon  | Banner | Download
 ------------- | ------------- | ------------- 
