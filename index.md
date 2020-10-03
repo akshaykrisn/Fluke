@@ -1,6 +1,4 @@
-> [View the Project on GitHub](https://github.com/edAxe/Fluke)
-
-![](/banner.png) 
+![](/ic_launcher_round.png.png) 
 
 ### Raffle startup-project (Discontinued)
 
