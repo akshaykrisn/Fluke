@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/surfaceViewQuizLiveBackLoading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#290c43">
+
+    <LinearLayout
+        android:alpha="0"
+        android:id="@+id/winnerviewLoading"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/goomedium"
+            android:textStyle="bold"
+            android:text="You're done for today.\nThanks for participating!"
+            android:layout_margin="16dp"
+            android:textSize="25sp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:alpha="0"
+        android:id="@+id/gettingBackLoading"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:background="#450682">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:id="@+id/goingbacktextLoading"
+            android:fontFamily="@font/goooregular"
+            android:text="Going back in 3"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_margin="16dp"/>
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/gifViewCardLivingLoading"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="30dp">
+
+        <ProgressBar
+            android:id="@+id/loading_spinnerLivingLoading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:indeterminateTint="#40136b"
+            android:indeterminateTintMode="src_atop"
+            android:padding="20dp" />
+
+    </android.support.v7.widget.CardView>
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:visibility="gone"
+        android:id="@+id/viewKonfettiDialog24541"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

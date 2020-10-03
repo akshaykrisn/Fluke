@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.goka.walker.WalkerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/walker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/giftswalk" />
+
+    <TextView
+        android:id="@+id/txt101"
+        android:tag="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/win_free_gifts_the_new_easy_way"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:fontFamily="@font/goobold"
+        android:layout_below="@+id/img"/>
+
+    <TextView
+        android:id="@+id/txt102"
+        android:layout_width="match_parent"
+        android:text="Setup your account by verifying your identity and get started for free."
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32sp"
+        android:textColor="#84000000"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="@font/goomedium"
+        android:layout_below="@+id/txt101"/>
+
+</com.goka.walker.WalkerLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<me.dkzwm.widget.srl.SmoothRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/refreshLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:id="@+id/gdgdfgsfg"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#9E9E9E">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/gradient_test2" />
+
+    <com.yalantis.jellytoolbar.widget.JellyToolbar
+        android:id="@+id/toolbarSocial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:cancelIcon="@drawable/ic_close"
+        app:endColor="@android:color/transparent"
+        app:icon="@drawable/pages"
+        app:startColor="@android:color/transparent"
+        app:title="@string/str_news_feed"
+        app:titleTextColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/coming_soon_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha="0"
+        android:paddingTop="45dp"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/comingsoonText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="Coming Soon" />
+
+        <TextView
+            android:id="@+id/temp1"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:paddingStart="65dp"
+            android:paddingEnd="64dp"
+            android:textColor="#E0E0E0"
+            android:text="Fingers Crossed. More exciting features to come!" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+</me.dkzwm.widget.srl.SmoothRefreshLayout>

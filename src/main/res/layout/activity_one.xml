@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E9E9E"
+    android:gravity="bottom"
+    sothree:barrierDirection="top"
+    sothree:umanoFadeColor="#009E9E9E"
+    sothree:umanoOverlay="true"
+    sothree:umanoPanelHeight="130dp"
+    sothree:umanoParallaxOffset="16dp"
+    sothree:umanoShadowHeight="0dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/surfaceViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#64000000">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/gifViewCardProfile"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:elevation="64dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="30dp">
+
+            <ProgressBar
+                android:id="@+id/loading_spinnerProfile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:alpha="0"
+                android:indeterminateTint="@color/two"
+                android:indeterminateTintMode="src_atop"
+                android:padding="20dp" />
+
+        </android.support.v7.widget.CardView>
+        <View
+            android:id="@+id/temp31377"
+            android:alpha="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000"/>
+
+        <ImageSwitcher
+            android:id="@+id/profilePicture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:paddingTop="35dp" />
+
+        <View
+            android:id="@+id/top_gradient_profile"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/gradient_test3" />
+
+        <com.yalantis.jellytoolbar.widget.JellyToolbar
+            android:id="@+id/toolbarProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:cancelIcon="@drawable/ic_close"
+            app:endColor="@android:color/transparent"
+            app:icon="@drawable/pages"
+            app:startColor="@android:color/transparent"
+            app:title="@string/str_news_feed"
+            app:titleTextColor="@android:color/white" />
+
+        <android.support.v7.widget.CardView
+            android:layout_marginLeft="8dp"
+            android:id="@+id/tempSmilee"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+
+            <com.hsalf.smilerating.SmileRating
+                android:layout_margin="8dp"
+                app:isIndicator="false"
+                app:showLine="false"
+                android:id="@+id/smile_rating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sliding_layoutDown_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0"
+        android:gravity="center|top">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="68dp"
+            android:id="@+id/floatprofile"
+            android:layout_height="68dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="32dp"
+            android:onClick="uploadPressed"
+            android:src="@drawable/baseline_camera_alt_white_48" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="bottom"
+            android:textColor="@color/white"
+            android:paddingBottom="2dp"
+            style="@style/AudioFileInfoOverlayText"
+            android:paddingStart="22dp"
+            android:layout_marginTop="24dp"
+            android:textSize="24sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/userphone"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:layout_below="@id/username"
+            style="@style/AudioFileInfoOverlayText"
+            android:gravity="top"
+            android:paddingStart="22dp"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/sliding_layout_profile_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="100dp"
+            custom:cardCornerRadius="24dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <HorizontalScrollView
+                    android:background="@android:color/transparent"
+                    android:id="@+id/temp46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp">
+
+                        <TextView
+                            android:id="@+id/ticketCountProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:layout_marginRight="4dp"
+                            android:text="20"
+                            android:textColor="#64000000"
+                            android:textSize="80sp" />
+
+                        <ImageView
+                            android:id="@+id/ticketPri"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginRight="16dp"
+                            android:layout_toRightOf="@+id/ticketCountProfile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ticket" />
+
+                        <ImageView
+                            android:onClick="navigateToHistory"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="4dp"
+                            android:id="@+id/tempsssss"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginRight="50dp"
+                            android:layout_toRightOf="@+id/ticketPri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/history" />
+
+                    </RelativeLayout>
+
+
+                </HorizontalScrollView>
+
+                <include layout="@layout/badging_layout" />
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

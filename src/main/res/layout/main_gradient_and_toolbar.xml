@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_gradient_and_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.5">
+
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfettiDialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_test" />
+
+    <com.yalantis.jellytoolbar.widget.JellyToolbar
+        android:id="@+id/toolbarHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:cancelIcon="@drawable/ic_close"
+        app:endColor="@android:color/transparent"
+        app:icon="@drawable/pages"
+        android:alpha="0"
+        app:startColor="@android:color/transparent"
+        app:title="@string/str_news_feed"
+        app:titleTextColor="@android:color/white" />
+
+
+    <include layout="@layout/main_title_layout"/>
+</RelativeLayout>

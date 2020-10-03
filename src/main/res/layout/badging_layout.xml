@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/temp46"
+    android:layout_height="wrap_content"
+    android:id="@+id/tempbadgin"
+    android:background="#424242"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/tempbad4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/badgenewa" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/tempbad4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/goomedium"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Fluke Newbie" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:alpha="0.3"
+        android:id="@+id/browz"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/tempbad5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/badgethreea" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/tempbad5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/goomedium"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Shared\n6 times" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:alpha="0.3"
+        android:id="@+id/silvr"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/tempbad6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/badgetwoa" />
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/tempbad6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/goomedium"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Shared\n50 times" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/gldhr"
+        android:alpha="0.3"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/tempbad7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/badgeonea" />
+
+
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/tempbad7"
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/goomedium"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Shared\n100 times" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

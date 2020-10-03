@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_view_left_offset">9dp</dimen>
+    <dimen name="left_offset">61dp</dimen>
+    <dimen name="card_width">148dp</dimen>
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="marker_corner_radius">4dp</dimen>
+    <dimen name="marker_height">40dp</dimen>
+    <dimen name="marker_width">32dp</dimen>
+
+    <dimen name="ftb_size_mini">50dp</dimen>
+    <dimen name="ftb_size_normal">70dp</dimen>
+    <dimen name="ftb_item_padding">17dp</dimen>
+    <dimen name="ftb_default_radius">60dp</dimen>
+
+
+    <dimen name="size_divider">1dp</dimen>
+    <dimen name="radius_dialogue">10dp</dimen>
+    <dimen name="radius_actionsheet">5dp</dimen>
+    <dimen name="dialogue_margin_side">30dp</dimen>
+    <dimen name="dialogue_margin_side_land">50dp</dimen>
+    <dimen name="dialogue_margin_top">30dp</dimen>
+    <dimen name="button_height">44dp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="text_margin_border">18dp</dimen>
+    <dimen name="text_margin_bottom">14dp</dimen>
+    <dimen name="text_message_margin_top">12dp</dimen>
+    <dimen name="text_message_margin_bottom">4dp</dimen>
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="text_message_size">14sp</dimen>
+    <dimen name="text_title_message_space">6dp</dimen>
+    <dimen name="text_input_margin_bottom">10dp</dimen>
+
+
+
+    <dimen name="ttlm_default_padding">20dip</dimen>
+    <dimen name="ttlm_default_corner_radius">4dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">0dip</dimen>
+    <dimen name="ttlm_default_elevation">2dp</dimen>
+</resources>

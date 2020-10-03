@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#348af7</color>
+    <color name="colorPrimaryDark">#348af7</color>
+    <color name="colorAccent">#348af7</color>
+
+    <color name="blue">#348af7</color>
+
+    <color name="temperature_background">@color/blue</color>
+    <color name="temperature_text">@android:color/white</color>
+
+    <color name="green_dot_big">@color/blue</color>
+    <color name="green_dot_small">@color/blue</color>
+    <color name="redd">#7f0000</color>
+    <color name="darkbluess">#0046a0</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorStart">#cb5ed9</color>
+    <color name="colorEnd">#8463d4</color>
+    <color name="trans">@android:color/transparent</color>
+
+    <color name="colorPrimaryTaskBar">#FF4081</color>
+
+    <color name="permitback">#150425</color>
+    <color name="one">#0277bd</color>
+    <color name="two">#00acc1</color>
+    <color name="three">#009688</color>
+
+    <color name="ftb_selected_dot_color">@android:color/white</color>
+    <color name="ftb_main_color">@android:color/transparent</color>
+
+    <color name="rainbowOne">#9400D3</color>
+    <color name="rainbowTwo">#4B0082</color>
+    <color name="rainbowThree">#0000FF</color>
+    <color name="rainbowFour">#4B0082</color>
+    <color name="rainbowFive">#FF0000</color>
+    <color name="rainbowSix">#00FF00</color>
+    <color name="rainbowSeven">#FFFF00</color>
+
+    <color name="successfulu">#0c7a13</color>
+
+    <color name="divider">#d7d7db</color>
+    <color name="negative">#ff3b30</color>
+    <color name="positive">#007aff</color>
+    <color name="others">#007aff</color>
+    <color name="text_actionsheet_title">#000000</color>
+    <color name="text_actionsheet_msg">#8f8f8f</color>
+    <color name="text_input">#5c5c5c</color>
+    <color name="text_default">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorOverlay">#d2ffffff</color>
+
+    <color name="answer1">#260b3f</color>
+    <color name="answer2">#40136b</color>
+    <color name="answer3">#450682</color>
+    <color name="answer4">#40027c</color>
+
+    <color name="temp1">#0046a0</color>
+
+</resources>

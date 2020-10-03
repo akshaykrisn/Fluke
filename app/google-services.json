@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "89061940060",
+    "firebase_url": "https://fluky-india.firebaseio.com",
+    "project_id": "fluky-india",
+    "storage_bucket": "fluky-india.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89061940060:android:0f4715ebdfd47a7d",
+        "android_client_info": {
+          "package_name": "app.fluky.ml.fluk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89061940060-9tpirqu5b6nna5105esmj6rvf58kpav2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.fluky.ml.fluk",
+            "certificate_hash": "1ebdfe8c5f2ab89b4cc260c235111219d1426881"
+          }
+        },
+        {
+          "client_id": "89061940060-flrerkc90dm699qvo8on0fkokiep2ona.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.fluky.ml.fluk",
+            "certificate_hash": "193ae0ebefee84a4b40d627a7d8e5565ae4993cc"
+          }
+        },
+        {
+          "client_id": "89061940060-hv4i89glk3bgmvest50l981i3e17i2up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsz_rFc3Aixhss0x7WueelyLN64LMevVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89061940060-hv4i89glk3bgmvest50l981i3e17i2up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-3648291950784680~5684142884"
+    }
+  ],
+  "configuration_version": "1"
+}

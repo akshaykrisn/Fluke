@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/surfaceViewQuizLive"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#290c43">
+
+    <RelativeLayout
+        android:id="@+id/temp646464Live"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <TextSwitcher
+            android:id="@+id/availableLaterLive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp">
+
+            <TextView
+                android:id="@+id/availableLaterLiveText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/goobold"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/availableLaterLiveText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/goobold"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+        </TextSwitcher>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/helhsfosiff"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/temp646464Live"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/temp4664465Live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="16dp"
+            android:ellipsize="end"
+            android:text="Tap the Start Button"
+            android:textColor="#62FFFFFF" />
+
+    </LinearLayout>
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfettiDialog98"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:onClick="sartQuiz"
+        android:id="@+id/gettingBackLoading"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:background="#450682">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:ellipsize="end"
+            android:id="@+id/goingbacktextLoading"
+            android:fontFamily="@font/goooregular"
+            android:text="Start"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:layout_margin="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

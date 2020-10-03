@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">#757575</item>
+        <item name="colorAccent">@color/one</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppThemssse" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">#757575</item>
+        <item name="colorAccent">@color/one</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+    <style name="FFAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/one</item>
+        <item name="colorPrimaryDark">@color/one</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/no_transition</item>
+    </style>
+
+    <style name="TransparentAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/no_transition</item>
+    </style>
+
+
+    <style name="tAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/two</item>
+        <item name="colorPrimaryDark">@color/two</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/no_transition</item>
+    </style>
+
+    <style name="yAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/three</item>
+        <item name="colorPrimaryDark">@color/three</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/no_transition</item>
+    </style>
+
+    <style name="bidhome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#290c43
+        </item>
+        <item name="colorPrimaryDark">#290c43</item>
+        <item name="colorAccent">#290c43</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="TemperatureTextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/temperature_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PlaceTextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ClockTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="DescriptionTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppThemeFB" parent="Theme.AccountKit">
+        <item name="colorPrimary">@color/one</item>
+        <item name="colorPrimaryDark">@color/one</item>
+        <item name="colorAccent">@color/one</item>
+        <item name="android:windowBackground">@color/one</item>
+        <item name="com_accountkit_primary_color">@color/one</item>
+        <item name="android:fontFamily">@font/goooregular</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/no_transition</item>
+    </style>
+
+    <style name="AppLoginTheme.Bicycle" parent="Theme.AccountKit.Outline">
+        <item name="com_accountkit_primary_color">@color/one</item>
+        <item name="com_accountkit_primary_text_color">@android:color/white</item>
+        <item name="com_accountkit_secondary_text_color">@android:color/white</item>
+
+        <item name="com_accountkit_button_disabled_text_color">#00000000</item>
+        <item name="com_accountkit_background">@drawable/gradient_map_d</item>
+        <item name="com_accountkit_background_color">#66000000</item>
+        <item name="com_accountkit_input_accent_color">@android:color/white</item>
+        <item name="com_accountkit_input_background_color">#00000000</item>
+        <item name="com_accountkit_input_border_color">#99FFFFFF</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+    <style name="PageTransition.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="AudioFileInfoOverlayText">
+        <item name="android:paddingLeft">4px</item>
+        <item name="android:paddingBottom">4px</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:shadowColor">#64000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="LoginTheme" parent="FirebaseUI">
+        <!--<item name="android:windowNoTitle">true</item>-->
+    </style>
+    <style name="NoNetwork" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/one</item>
+        <item name="colorPrimaryDark">@color/one</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+
+    <style name="HistoryE" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@android:color/white</item>
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/PageTransition.Activity</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="textBoldFont" parent="android:style/Widget">
+        <item name="android:fontFamily">@font/goobold</item>
+    </style>
+
+    <style name="CustomDialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:fontFamily">@font/goobold</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_center</item>
+    </style>
+    <style name="CustomActionsheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_center</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_center</item>
+    </style>
+
+    <style name="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_padding">@dimen/ttlm_default_padding</item>
+        <item name="ttlm_strokeColor">@android:color/transparent</item>
+        <item name="ttlm_backgroundColor">@color/one</item>
+        <item name="ttlm_strokeWeight">@dimen/ttlm_default_stroke_weight</item>
+        <item name="ttlm_cornerRadius">@dimen/ttlm_default_corner_radius</item>
+        <item name="ttlm_arrowRatio">1.4</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="ttlm_overlayStyle">@style/ToolTipOverlayDefaultStyle</item>
+        <item name="ttlm_elevation">@dimen/ttlm_default_elevation</item>
+    </style>
+
+    <style name="ToolTipOverlayDefaultStyle">
+        <item name="android:color">@color/one</item>
+        <item name="ttlm_repeatCount">99</item>
+        <item name="ttlm_duration">600</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+
+
+</resources>

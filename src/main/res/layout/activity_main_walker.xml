@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".walkth.MainActivityWalker">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <nl.dionsegijn.konfetti.KonfettiView
+        android:id="@+id/viewKonfettiWalker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.rbrooks.indefinitepagerindicator.IndefinitePagerIndicator
+        android:id="@+id/recyclerview_pager_indicator"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/temppviewpaga"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        app:dotColor="#990277bd"
+        app:selectedDotColor="#998b34f7"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/temppviewpaga"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:elevation="0dp"
+        android:orientation="horizontal"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp">
+
+        <Button
+            android:id="@+id/tempButtonWalker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/goobold"
+            android:textStyle="bold"
+            android:background="@drawable/get_started_button"
+            android:padding="16dp"
+            android:text="Get Started"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+</RelativeLayout>

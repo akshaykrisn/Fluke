@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/container_dialig"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient_map_d">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/gifViewCardDialog"
+        android:layout_width="60dp"
+        android:layout_centerInParent="true"
+        android:alpha="0"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="30dp"
+        android:elevation="64dp"
+        android:layout_height="60dp">
+
+        <ProgressBar
+            android:id="@+id/loading_spinnerDialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:alpha="0"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/two"
+            android:layout_gravity="center" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:alpha="0"
+        android:id="@+id/almostthretest"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/gifViewCardDialog"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/goobold"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>

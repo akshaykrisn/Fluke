@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/temp645"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:animateLayoutChanges="true"
+        android:id="@+id/ticketShowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@drawable/bidding_gradient">
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:alpha="0"
+            android:id="@+id/scrollviewLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:id="@+id/howmnayticket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="4dp"
+                    android:text="20"
+                    android:alpha="0"
+                    android:id="@+id/ticketCountMain"
+                    android:textColor="#FFF"
+                    android:textSize="80sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_toRightOf="@+id/ticketCountMain"
+                    android:id="@+id/coordinatortwo"
+                    android:layout_height="1dp"/>
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginBottom="16dp"
+                    android:id="@+id/tcicket"
+                    android:layout_marginRight="16dp"
+                    android:layout_toRightOf="@+id/coordinatortwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ticket" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/temp11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quickly earn more Flukes"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_margin="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:id="@+id/earnmorecards"
+                    android:background="@android:color/transparent"
+                    android:scrollbarSize="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <include layout="@layout/main_item_quiz" />
+                        <include layout="@layout/main_item_ad"/>
+                        <include layout="@layout/main_item_share"/>
+                        <include layout="@layout/main_item_boost"/>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <include layout="@layout/main_item_share_adon" />
+
+                <include layout="@layout/main_layout_buying_view" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="60dp"
+                    android:id="@+id/isloadingBackCard"
+                    android:layout_centerInParent="true"
+                    app:cardBackgroundColor="#FFFFFF"
+                    app:cardCornerRadius="30dp"
+                    android:elevation="64dp"
+                    android:visibility="gone"
+                    android:layout_marginTop="32dp"
+                    android:layout_height="60dp">
+
+                    <ProgressBar
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        android:indeterminateTintMode="src_atop"
+                        android:indeterminateTint="@color/two"
+                        android:layout_gravity="center" />
+
+                </android.support.v7.widget.CardView>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/BelowTicketShowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9E9E9E"
+        android:clipChildren="false"
+        android:orientation="vertical">
+
+
+        <include layout="@layout/main_gradient_and_toolbar" />
+
+        <include layout="@layout/main_bottom_gradient" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="60dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="30dp"
+        android:elevation="64dp"
+        android:visibility="gone"
+        android:layout_marginTop="32dp"
+        android:layout_height="60dp">
+
+        <ProgressBar
+            android:id="@+id/loading_spinnerMainBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/two"
+            android:layout_gravity="center" />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

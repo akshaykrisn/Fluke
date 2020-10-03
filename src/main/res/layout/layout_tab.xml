@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:clipChildren="false">
+
+
+    <ImageView
+        android:id="@+id/homeUn"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:onClick="imoneClick"
+        android:alpha="0.3"
+        android:src="@drawable/door"/>
+
+    <ImageView
+        android:id="@+id/profileUn"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:alpha="0.3"
+        android:onClick="imtwoClick"
+        android:src="@drawable/profile"/>
+
+    <ImageView
+        android:id="@+id/socialUn"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="imthreeClick"
+        android:padding="12dp"
+        android:alpha="0.3"
+        android:layout_height="match_parent"
+        android:src="@drawable/social"/>
+
+</LinearLayout>

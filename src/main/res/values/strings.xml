@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fluke</string>
+    <string name="text1">The museum is housed in the Louvre Palace, originally built as a fortress in the late 12th century…</string>
+    <string name="text2">Gwanghwamun is the main and largest gate of Gyeongbokgung Palace, in Jongno-gu, Seoul, South Korea.</string>
+    <string name="text3">Tower Bridge is a combined bascule and suspension bridge in London built in 1886–1894.</string>
+    <string name="text4">The Temple of Heaven is an imperial complex of religious buildings situated in the southeastern part…</string>
+    <string name="text5">The Aegean Islands are within the sea and some bound it on its southern periphery…</string>
+    <string name="str_news_feed"></string>
+    <string name="partnerKey">KWH46b84441cb359f42bc9d505389c09cdd6c</string>
+    <string name="FACEBOOK_APP_ID">222432698470332</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">3f1d30ae1603a7de9e0780f0cb9823c1</string>
+    <string name="errorloadad">Error loading ads. Don\'t worry</string>
+    <string name="win_free_gifts_the_new_easy_way"><![CDATA[Win free gifts - the new & easy way.]]></string>
+    <string name="test_your_skills_everyday_boost_your_chances_to_win"><![CDATA[Test your skills everyday & boost your chances to win.]]></string>
+
+</resources>
