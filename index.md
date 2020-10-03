@@ -14,8 +14,8 @@
  - Compatible with Android (4.1+) - Smartphone/Tablet;
  - Support Live Quizzes much like Flipkart Games;
 
-| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/3.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/4.png) |
+| ![](/1.png)  | ![](/2.png) | ![](/3.png) | ![](/4.png) |
 | ------------- | ------------- | ------------- | ------------- | 
-| ![](https://github.com/Axeey/Fluke/blob/master/store/5.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/6.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/7.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/8.png)  | 
+| ![](/5.png)  | ![](/6.png)  | ![](/7.png)  | ![](/8.png)  | 
 
 Copyright © 2018 edAxe
