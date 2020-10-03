@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Fluke
 
-You can use the [editor on GitHub](https://github.com/edAxe/Fluke/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Discontinued Raffle Startup 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Icon  | Banner | Download
+------------- | ------------- | ------------- 
+![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | ```https://play.google.com/store/apps/details?id=app.fluky.ml.fluk (UNPUBLISHED)``` [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk)
 
-### Markdown
+## Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> - Firebase/Facebook Developer Support - User authentication (phone/email), Verification (facebook phone verfication), Firestore, RT Database, Hosting (fluke.ml discontinued);
+> - Cloud function for payment-verification using Firebase Functions & Google Developers Console;
+> - UX/UI with halo/AI animation created/forked from Github OSPs;
+> - Compatible with Android (4.1+) - Smartphone/Tablet;
+> - Support Live Quizzes much like Flipkart Games;
 
-```markdown
-Syntax highlighted code block
+## Playstore Graphics 
 
-# Header 1
-## Header 2
-### Header 3
+| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/3.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/4.png) |
+| ------------- | ------------- | ------------- | ------------- | 
+| ![](https://github.com/Axeey/Fluke/blob/master/store/5.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/6.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/7.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/8.png)  | 
 
-- Bulleted
-- List
+## Playstore Description 
 
-1. Numbered
-2. List
+```Free and Rewarding: Still thinking about that smartphone? Win it free 😊
 
-**Bold** and _Italic_ and `Code` text
+Play our Free Live Quiz every day from 7:00 pm to 7:30 pm. We will reward you -- to win great prizes🌟
 
-[Link](url) and ![Image](src)
+Amazing gifts everyday📅. You really get to WIN cool new prizes.
+
+🎁 Winning is simple: You just participate and win. More participation, more lucky.
+🕑 Easy to use: You simply win! Everything is clear and rewarding.
+😎 Share to win: Spread your lucky referral and earn more every day. Claim yourself a great reward.
+🍭 Win lucky badges.
+
+Share this app, play quiz and boost participation:
+
+• Refer friends and family to be even more lucky👥
+• Lucky winner participates more ⌛
+
+✅Easy quiz - 6 questions - great rewards.
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/edAxe/Fluke/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Copyright © 2018 Akshay Krishna
