@@ -1,7 +1,8 @@
-| ![](/icon.png) | ![](/banner.png) |
-| ------------- | ------------- | 
+
 
 ### Raffle startup-project (Discontinued)
+
+![](/banner.png) 
 
  
 
