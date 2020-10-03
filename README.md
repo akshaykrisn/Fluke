@@ -42,4 +42,4 @@ Share this app, play quiz and boost participation:
 ```
 
 
-Copyright © 2018 Akshay Krishna
+Copyright © 2018 edAxe
