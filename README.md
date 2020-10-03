@@ -11,10 +11,8 @@
 - Compatible with Android (4.1+) - Smartphone/Tablet;
 - Support Live Quizzes much like Flipkart Games;
 
-| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) |
-| ------------- | ------------- |
-| ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) |
-| ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) |
+| ![](https://github.com/Axeey/Fluke/blob/master/store/1.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/2.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/3.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/4.png) |
+| ------------- | ------------- | ------------- | ------------- | 
+| ![](https://github.com/Axeey/Fluke/blob/master/store/5.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/6.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/7.png)  | ![](https://github.com/Axeey/Fluke/blob/master/store/8.png)  | 
 
 
-| width=100
