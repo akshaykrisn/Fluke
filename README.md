@@ -2,9 +2,9 @@
 
 ### Discontinued Raffle Startup 
 
-Icon  | Banner | Link
+Icon  | Banner | Download
 ------------- | ------------- | ------------- 
-![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | https://play.google.com/store/apps/details?id=app.fluky.ml.fluk (Unpublished) [Links](http://localhost/)
+![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png) | ![](https://github.com/Axeey/Fluke/blob/master/store/banner.png) | ```https://play.google.com/store/apps/details?id=app.fluky.ml.fluk (UNPUBLISHED)``` [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk)
 
 ## Features
 
