@@ -1,4 +1,6 @@
-### Discontinued raffle startup-project
+> [View the Project on GitHub](https://github.com/edAxe/Fluke)
+
+### Raffle startup-project (Discontinued)
 
 ```https://play.google.com/store/apps/details?id=app.fluky.ml.fluk (UNPUBLISHED)``` [Download APK](https://github.com/Axeey/Fluke/blob/master/release/Fluke.apk)
 
