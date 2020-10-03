@@ -8,6 +8,5 @@
 - UX/UI with halo/AI animation created/forked from Github OSPs;
 - Compatible with Android (4.1+) - Smartphone/Tablet;
 - Support Live Quizzes much like Flipkart Games;
-- Encourages addictive psychological response (Primary reason to discontinue);
 
 ![](https://github.com/Axeey/Fluke/blob/master/src/main/res/mipmap-xxhdpi/ic_launcher_round.png)
